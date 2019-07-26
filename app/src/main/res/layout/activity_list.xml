@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".list">
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week one"
+        android:layout_marginTop="11dp"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:id="@+id/weekone"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekone"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week two"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@id/weekone"
+        android:id="@+id/weektwo"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weektwo"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo1" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week three"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@id/weektwo"
+        android:id="@+id/weekthree"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekthree"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo2" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week four"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/weekthree"
+        android:id="@+id/weekfour"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekfour"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo3" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week five"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/weekfour"
+        android:id="@+id/weekfive"
+        />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekfive"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo4" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week six"
+        android:layout_below="@+id/weekfive"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:id="@+id/weeksix"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weeksix"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo5" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week seven"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/weeksix"
+        android:id="@+id/weekseven"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekseven"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo6" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week eight"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/weekseven"
+        android:id="@+id/weekeight"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekeight"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo7" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week nine"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/weekeight"
+        android:id="@+id/weeknine"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weeknine"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo8" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_centerHorizontal="true"
+        android:text="week ten"
+        android:layout_marginLeft="@android:dimen/notification_large_icon_width"
+        android:layout_below="@+id/weeknine"
+        android:id="@+id/weekten"
+        />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="47dp"
+        android:src="@drawable/logo"
+        android:layout_alignTop="@id/weekten"
+        android:layout_marginTop="7dp"
+        android:id="@+id/logo9" />
+</RelativeLayout>
