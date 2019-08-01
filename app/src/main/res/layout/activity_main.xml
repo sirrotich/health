@@ -8,9 +8,6 @@
     android:background="#FF69B4"
     >
 
-
-
-
     <ImageView
         android:layout_width="100dp"
         android:layout_height="100dp"
