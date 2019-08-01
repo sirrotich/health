@@ -9,7 +9,6 @@ import android.widget.Button;
 
 public class list7Details extends AppCompatActivity {
 
-
     Button button;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
